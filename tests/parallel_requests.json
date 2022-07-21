@@ -1,0 +1,10 @@
+{
+  "task": "request.HttpSessionTask",
+  "args": {
+    "children": [
+      { "task": "request.RequestTask", "args": {"url": "https://www.google.com"}},
+      { "task": "request.RequestTask", "args": {"url": "https://www.cnn.com"}},
+      { "task": "request.RequestTask", "args": {"url": "https://www.facebook.com"}}
+    ]
+  }
+}
